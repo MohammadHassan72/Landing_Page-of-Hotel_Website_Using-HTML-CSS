@@ -1,0 +1,96 @@
+
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.logo span{
+    color: red;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 25px;
+    color: black;
+    font-size: 20px;
+    padding: 10px, 20px;
+    /*background: rgb(253, 208, 110);
+    border-radius: 6px; */
+    text-transform: uppercase;
+}
+.menu a:first-child{
+    color: red;
+}
+.menu a:hover{
+    color: red;
+}
+
+.icons i{
+    margin: 0 10px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 1px solid grey;
+    transition: 0.4s;
+}
+.icons i:hover{
+    background-color: red;
+    color: white;
+}
+
+#img1{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    max-width: 800px;
+}
+
+
+.htext{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 500px;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.htext h1{
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.htext h1 span{
+    color: red;
+    text-shadow: 2px 6px 7px whitesmoke;
+}
+
+ /* @media only screen(max-width: 500px){
+    #main{
+        flex-direction: column;
+    }
+    #main #left{
+        width: 100vh;
+    }
+}
+*/
